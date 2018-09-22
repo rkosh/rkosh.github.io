@@ -1,0 +1,179 @@
+body {
+    font: 14px/1.5 lato;
+    background-color: white;
+    /*background: url('../images/minimal.jpg') no-repeat center;
+    background-size: 90%;*/
+}
+
+.header {
+	font-size: 4em;
+	font-family: lato;
+	font-style: normal;
+}
+
+.info{
+	margin-top: 10%;
+	left: 15%;
+	width: 60%;
+	position: relative;
+	text-align: center;
+	font-style: italic;
+}
+
+#image {
+	width: 100%;
+	height: 100px;
+	background: url(none) no-repeat center;
+	position: relative;
+}
+
+.sub-text {
+	font-style: thin;
+	text-transform: uppercase;
+}
+
+.tooltips {
+	display: none;
+}
+
+.thin-box {
+	margin-top: 30%;
+	position: relative;
+	border: 1px solid black;
+	border-right: none;
+	text-align: center;
+	padding: 10px 20px;
+	width: 60%;
+	left: 15%;
+}
+
+.left-area, .right-area {
+	height: 100%;
+	margin: 0px;
+	top: 0;
+	overflow: hidden;
+}
+
+.left-area {
+	width: 45%;
+	position: absolute;
+	left: 0%;
+	background: url('../res/images/leaf.png') no-repeat right;
+	background-size: 27%;
+}
+
+.right-area {
+	width: 55%;
+	position: absolute;
+	left: 45%;
+}
+
+.double-line {
+	position: absolute;
+	left: 45%;
+	height: 90%;
+	width: 10%;
+}
+
+.line {
+	border-left: 1px solid black;
+	height: 100%;
+	margin: 10px 5px;
+	float: left;
+	-webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    line-height: 20px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 10px;
+	width: 300px;
+	height: 25px;
+	left: 40%;
+}
+
+#footer i{
+	font-size: 25px;
+}
+
+#footer i:hover {
+	transition-timing-function: ease;
+	-webkit-transition-timing-function: ease;
+	transform: translateY(-20%);
+	-webkit-transform: translateY(-20%);
+	transition: 0.25s;
+	-webkit-transition: 0.25s;
+}
+
+.heading {
+	margin-left: 20%;
+	margin-top: 5%;
+	font-size: 2em;
+	font-style: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #000000;	
+	max-width: 150px;
+	padding: 5px;
+	text-align: center;
+}
+
+.sub-heading {
+	margin-top: 5%;
+	margin-left: 12%;
+}
+
+.skills {
+	margin-left: 17%;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.projects {
+	margin-left: 10%;
+}
+
+.text-icon {
+	font-size: 20px !important;
+	height: 20px;
+}
+
+.lowercase {
+	text-transform: lowercase !important;
+	font-style: bold;
+}
+
+li {
+	list-style-type: none;
+	display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 10px; 
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li img {
+	height: 20px;
+	margin-right: 2px; 
+}
+
+li:hover {
+	transition-timing-function: ease;
+	-webkit-transition-timing-function: ease;
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transition: 0.25s;
+	-webkit-transition: 0.25s;
+	font-size: 16px;
+	/*cursor: pointer;*/
+}
+
+
+@media screen and (max-width: 520px) {
+
+}
