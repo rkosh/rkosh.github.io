@@ -1,8 +1,7 @@
 body {
     font: 14px/1.5 lato;
     background-color: white;
-    /*background: url('../images/minimal.jpg') no-repeat center;
-    background-size: 90%;*/
+    overflow-x: hidden;
 }
 
 .header {
@@ -30,10 +29,6 @@ body {
 .sub-text {
 	font-style: thin;
 	text-transform: uppercase;
-}
-
-.tooltips {
-	display: none;
 }
 
 .thin-box {
@@ -107,6 +102,11 @@ body {
 	-webkit-transition: 0.25s;
 }
 
+#notice {
+	display: none;
+	font-size: 0.9em;
+}
+
 .heading {
 	margin-left: 20%;
 	margin-top: 5%;
@@ -173,7 +173,76 @@ li:hover {
 	/*cursor: pointer;*/
 }
 
+/* Responsive web design */
+@media screen and (max-width: 1023px) {
 
-@media screen and (max-width: 520px) {
+	.left-area, .right-area {
+		margin: 0px;
+		top: 0;
+		overflow-x: hidden;
+	}
 
+	.left-area {
+		width: 100%;
+		position: relative;
+		left: 0%;
+		background: url('../res/images/leaf.png') no-repeat right;
+		background-size: 35%;
+	}
+
+	.right-area {
+		width: 100%;
+		position: relative;
+		left: 0%;
+		top:100%;
+	}
+
+	.double-line {
+		display: none;
+	}
+
+	.info {
+		display: none;
+	}
+
+	.line {
+		border-left: 1px solid black;
+		height: 100%;
+		margin: 10px 5px;
+		float: left;
+		-webkit-transform: skew(-20deg);
+	    -moz-transform: skew(-20deg);
+	    -o-transform: skew(-20deg);
+	    line-height: 20px;
+	}
+
+	.heading {
+		margin-left: 0%;
+	}
+
+	.sub-heading {
+		margin-top: 5%;
+		margin-left: 0%;
+	}
+
+	.skills {
+		margin-left: 0%;
+	}
+
+	.projects {
+		margin-left: 0%;
+	}
+
+	#footer {
+		position: relative;
+		bottom: 0px;
+		width: 100%;
+		left: 0%;
+		height: 25px;
+		text-align: center;
+	}
+
+	#notice {
+		display: block;
+	}
 }
