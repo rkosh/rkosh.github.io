@@ -1,12 +1,12 @@
 body {
-    font: 14px/1.5 lato;
+    font: 14px/1.5 'Lato', sans-serif;
     background-color: white;
     overflow-x: hidden;
 }
 
 .header {
 	font-size: 4em;
-	font-family: lato;
+	font-family: 'Lato', sans-serif;
 	font-style: normal;
 }
 
