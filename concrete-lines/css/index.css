@@ -1,0 +1,66 @@
+body {
+    font: 14px/1.5 'Lato', sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+
+.youtube-channel{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background: url('../res/images/bg.jpg') no-repeat center;
+	background-size: cover;
+}
+
+#series-name{
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#series-name span{
+	font-family: 'Lato thin', sans-serif;
+}
+
+#sub-text{
+	font-size: 2em;
+    font-family: 'Lato thin', sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+#button-fixed{
+	position: fixed;
+	top:50%;
+	left: 50%;
+	min-width: 300px;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	font-size: 2em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: white;
+    background: black;
+    border: 2px solid #808080;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#button-fixed:hover{
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
