@@ -1,0 +1,90 @@
+body {
+    font: 14px/1.5 'Lato', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+.featured-video{
+	position:absolute;
+	top:0;
+	left:0;
+    right: 0;
+    height: 50%;
+	background: url('../res/images/bg2.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.concrete-lines{
+    position:absolute;
+    top:51%;
+    left:0;
+    right: 0;
+    height: 49%;
+    background: url('../res/images/bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/*.skate-films{
+    position:absolute;
+    top:66%;
+    left:0;
+    right: 0;
+    height: 33%;
+    background: url('../res/images/bg.jpg') no-repeat center;
+    background-size: cover;
+}*/
+
+.content-name{
+    margin-top: 10%;
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    position: relative;
+    text-shadow: 3px 0px 8px #000000;
+}
+
+.content-text{
+    position: relative;
+    font-size: 2em;
+    font-family: 'Lato thin', sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 0px 8px #000000;
+    background: rgba(0,0,0,0.3);
+}
+
+.button-context{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: white;
+    background: black;
+    border: 2px solid #808080;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#series-name span{
+	font-family: 'Lato thin', sans-serif;
+}
+
+
+#button-fixed:hover{
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
